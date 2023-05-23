@@ -105,7 +105,7 @@ public class SmartAPIRequestHandler {
 			String sourceID = "WEB";
 			headers.put("sourceID", sourceID);
 
-			System.out.print(headers);
+			//System.out.print(headers);
 			return headers;
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

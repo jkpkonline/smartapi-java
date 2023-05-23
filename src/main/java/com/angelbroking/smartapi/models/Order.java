@@ -111,17 +111,17 @@ public class Order {
 
 	@Override
 	public String toString() {
-		return "Order [disclosedQuantity=" + disclosedQuantity + ", duration=" + duration + ", tradingSymbol="
+		return "Order [orderStatus=" + orderStatus+ ", status=" + status + ", disclosedQuantity=" + disclosedQuantity + ", duration=" + duration + ", tradingSymbol="
 				+ tradingSymbol + ", variety=" + variety + ", orderType=" + orderType + ", triggerPrice=" + triggerPrice
-				+ ", text=" + text + ", price=" + price + ", status=" + status + ", productType=" + productType
-				+ ", exchange=" + exchange + ", orderId=" + orderId + ", symbol=" + symbol + ", updateTime="
+				+ ", text=" + text + ", price=" + price  + ", productType=" + productType
+				+ ", exchange=" + exchange + ", symbol=" + symbol + ", updateTime="
 				+ updateTime + ", exchangeTimestamp=" + exchangeTimestamp + ", exchangeUpdateTimestamp="
 				+ exchangeUpdateTimestamp + ", averagePrice=" + averagePrice + ", transactionType=" + transactionType
 				+ ", quantity=" + quantity + ", squareOff=" + squareOff + ", stopLoss=" + stopLoss
 				+ ", trailingStopLoss=" + trailingStopLoss + ", symbolToken=" + symbolToken + ", instrumentType="
 				+ instrumentType + ", strikePrice=" + strikePrice + ", optionType=" + optionType + ", expiryDate="
 				+ expiryDate + ", lotSize=" + lotSize + ", cancelSize=" + cancelSize + ", filledShares=" + filledShares
-				+ ", orderStatus=" + orderStatus + ", unfilledShares=" + unfilledShares + ", fillId=" + fillId
+				+ ", unfilledShares=" + unfilledShares + ", fillId=" + fillId
 				+ ", fillTime=" + fillTime + "]";
 	}
 
